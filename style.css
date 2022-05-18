@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+}
+
+#texto-principal {
+    width: 60vw;
+    height: 50vw;
+    font-size: 40px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+}
+
+#texto-principal > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#login {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: stretch;
+    margin: 10%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inputs{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    
+    background-color: black;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+    border: 0;
+}
